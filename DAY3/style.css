@@ -1,0 +1,35 @@
+.subscribe{
+    background-color: red;
+    color: white;
+    border: none;
+    padding-top: 10px;/*Note:padding takes four values for top right bottom left.But if have top,bottom and left right same then see for join bottom*/
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;  
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.join{
+    background-color: white;
+    color: rgb(0, 122, 170);
+    padding: 8px 20px; /*But if you dont want top right bottom left to same then see for tweet bottom*/
+    border-color: rgb(74, 74, 237);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tweet{
+    background-color: rgb(0, 181, 253);
+    color: white;
+    border: none;
+    padding: 10px 12px 9px 14px;/*This is shortcut for padding.Also if you add text the while padding on box the texts does not overflow while it does using height and weight*/
+    border-radius: 15px; 
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 10px;
+}

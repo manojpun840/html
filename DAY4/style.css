@@ -1,0 +1,8 @@
+p{
+    line-height: 30px; /*Used to put gap between sentences*/
+    /*Note:specific selector has more priority than just selector.Means here just p(element) selector has less priority than class(paragraph) selector.for example check below*/
+}
+
+.paragraph{
+    line-height: 20px; /*Here we have given line-height to both selectors but still .paragraph selector overides because class has more priority than normal selector.*/
+}

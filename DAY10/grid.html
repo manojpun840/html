@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="padding-bottom: 1000px;">
+    <!-- grid is a layout that has rows and columns. -->
+
+    <div style="
+     display: grid;
+     grid-template-columns: 100px 100px;
+    ">
+        <div style="background-color: skyblue;">div 1</div>
+        <div style="background-color: pink;">div 2 <p>text</p></div>
+    </div>
+
+
+    <div style="
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 100px 100px 200px ;
+   ">
+       <div style="background-color: skyblue;">100px</div>
+       <div style="background-color: pink;">100px <p>text</p></div>
+       <div style="background-color: skyblue;">200px</div>
+       <div style="background-color: pink;">100px</div> <!--This wraps to second row.This happens when we have more elements than columns -->
+   </div>
+
+   <!--fr means free space means to take the remaining amount of space on the screen-->
+   <div style="
+   margin-top: 30px;
+   display: grid;
+   grid-template-columns: 100px 1fr ; 
+  ">
+      <div style="background-color: skyblue;">100px</div>
+      <div style="background-color: pink;">1fr</div>
+  </div>
+
+
+  <div style="
+   margin-top: 30px;
+   display: grid;
+   grid-template-columns: 100px 1fr 1fr; 
+  ">
+      <div style="background-color: skyblue;">100px</div>
+      <div style="background-color: pink;">1fr</div> <!--Note the differences here and-->
+      <div style="background-color: skyblue;">1fr</div>
+  </div>
+
+
+  <div style="
+   margin-top: 30px;
+   display: grid;
+   grid-template-columns: 100px 1fr 1fr; 
+  ">
+      <div style="background-color: skyblue;">1fr</div>
+      <div style="background-color: pink;">100px</div> <!--here.Here 1fr is not taking spaces as 1fr-->
+      <div style="background-color: skyblue;">1fr</div>
+  </div>
+
+
+  <div style="
+   margin-top: 30px;
+   display: grid;
+   grid-template-columns: 100px 1fr 2fr; 
+  ">
+      <div style="background-color: skyblue;">100px</div>
+      <div style="background-color: pink;">1fr</div>
+      <div style="background-color: skyblue;">2fr</div>
+  </div>
+
+
+  <div style="
+   margin-top: 30px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr; 
+   column-gap: 20px;
+   row-gap: 20px;
+  ">
+      <div style="background-color: skyblue; height: 200px;">1fr</div>
+      <div style="background-color: pink; height: 200px">1fr</div>
+      <div style="background-color: skyblue; height: 200px">1fr</div>
+      <div style="background-color: pink; height: 200px">1fr</div>
+      <div style="background-color: skyblue; height: 200px">1fr</div>
+      <div style="background-color: pink; height: 200px">1fr</div>
+  </div>
+</body>
+</html>

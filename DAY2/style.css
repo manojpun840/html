@@ -1,0 +1,61 @@
+.subscribe-button{
+    background-color: red;
+    color: white;
+    border: none;
+    height: 30px; /*Instead of giving height and width try to manage with padding because if you add more text on that box then the text overflows becaues it is forced to stay by giving height and width.For this you can see example on boxmodel*/
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: opacity 1s;  /*transition takes two value one what we want to transition and second time for how long the transition takes place*/
+}
+
+.subscribe-button:hover{
+    /* background-color: rgb(184, 5, 5); */
+    opacity: 0.7; /*Opacity is used to fade out colors and it takes value between 0 and 1 also 1 is default value*/
+}
+.subscribe-button:active{
+    /*background-color: blue;*/ /*active means when you click on subscribe button it shows blue color*/
+    opacity: 0.3;
+}
+
+.join-button{
+    background-color: white;
+    color: rgb(0, 122, 170);
+    height: 30px;
+    width: 70px;
+    border-color: rgb(74, 74, 237);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.65s, color 0.65s;
+}
+
+.join-button:hover{
+    background-color: rgb(0, 122, 170);
+    color: white;
+}
+
+.join-button:active{
+    opacity: 0.3;
+}
+
+.twitter-button{
+    background-color: rgb(0, 181, 253);
+    color: white;
+    border: none;
+    height: 30px;
+    width: 80px;
+    border-radius: 15px; 
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: box-shadow 0.75s;
+}
+
+.twitter-button:hover{
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.15) ; /*box-shadow takes 4 values.the first value is for right side second one is for down side and third one is to make blur and fourth one is which color we want in shadow.*/
+    /*Here in rgba a means opacity*/
+}

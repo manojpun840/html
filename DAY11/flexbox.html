@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="
+padding-bottom: 1000px;
+">
+    <div style="
+        display: flex;
+        flex-direction: row;
+        ">
+        <div style="background-color: skyblue;">div1 text</div>
+        <div style="background-color: pink;">div2 <p>text</p></div>
+    </div>
+
+    <div style="
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    ">
+    <div style="background-color: skyblue;
+     width: 100px;
+        ">100px
+    </div>
+    <div style="background-color: pink;
+     flex: 1;
+     ">flex1
+    </div> <!--flex 1 in flexbox is equivalent to 1fr in grid-->
+    </div>
+
+    <div style="
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    ">
+    <div style="background-color: skyblue;
+    width: 100px;
+        ">100px</div>   <!--Note the differences here and -->
+    <div style="background-color: pink;
+    flex: 1;
+    ">flex1</div> 
+    <div style="background-color: skyblue;
+    width: 100px;
+    flex: 2;
+        ">flex2</div>
+    </div>
+
+
+    <div style="
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    ">
+    <div style="background-color: skyblue;
+    flex: 1;
+    ">flex1</div> <!--here.Here flexbox changes as per flex1 -->
+    <div style="background-color: pink;
+    width: 100px;  
+        ">100px</div>  
+    <div style="background-color: skyblue;
+    width: 100px;
+    flex: 2;
+        ">flex2</div>
+    </div>
+
+    <div style="
+    margin-top: 30px;
+    height: 70px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    "> <!--justify-content:start is default-->
+    <div style="background-color: skyblue;
+    width: 100px;
+    ">100px</div> 
+    <div style="background-color: pink;
+    width: 100px;  
+        ">100px</div>  
+    <div style="background-color: skyblue;
+    width: 100px;
+        ">100px</div>
+    </div>
+
+
+    <div style="
+    margin-top: 30px;
+    height: 70px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    "> <!--justify-content:start is default-->
+    <div style="background-color: skyblue;
+    width: 100px;
+    ">100px</div> 
+    <div style="background-color: pink;
+    width: 100px;  
+        ">100px</div>  
+    <div style="background-color: skyblue;
+    width: 100px;
+        ">100px</div>
+    </div>
+
+
+    <div style="
+    margin-top: 30px;
+    height: 70px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: end;   
+    "> <!--align-items:stretch is default-->
+    <div style="background-color: skyblue;
+    width: 100px;
+    ">100px</div> 
+    <div style="background-color: pink;
+    width: 100px;  
+        ">100px</div>  
+    <div style="background-color: skyblue;
+    width: 100px;
+        ">100px</div>
+    </div>
+
+    <div style="
+    margin-top: 30px;
+    height: 70px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    "> <!--align-items:stretch is default-->
+    <div style="background-color: skyblue;
+    width: 100px;
+    ">100px</div> 
+    <div style="background-color: pink;
+    width: 100px;  
+        ">100px</div>  
+    <div style="background-color: skyblue;
+    width: 100px;
+    width: 100px;
+        ">100px</div>
+    </div>
+
+    <div style="
+    margin-top: 30px;
+    margin-left: 250px;
+    height: 600px;
+    width: 1000px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: space-between;  */
+    /* align-items: center; */
+    flex-wrap: wrap;
+    gap: 20px;
+    "> 
+    <div style="background-color: skyblue;
+    width: 100px;
+    height: 100px;
+    ">100px</div> 
+    <div style="background-color: pink;
+    width: 100px;  
+    height: 100px;
+        ">100px</div>  
+    <div style="background-color: skyblue;
+    width: 100px;
+    height: 100px;
+        ">100px</div>
+    <div style="background-color: pink;
+    width: 100px;  
+    height: 100px;
+        ">100px</div>  
+    <div style="background-color: skyblue;
+    width: 100px;
+    height: 100px;
+        ">100px</div>
+    <div style="background-color: pink;
+    width: 100px;  
+    height: 100px;
+        ">100px</div> 
+    <div style="background-color: skyblue;
+    width: 100px;
+    height: 100px;
+    ">100px</div> 
+    <div style="background-color: pink;
+    width: 100px;  
+    height: 100px;
+        ">100px</div>  
+    <div style="background-color: skyblue;
+    width: 100px;
+    height: 100px;
+        ">100px</div>
+    <div style="background-color: pink;
+    width: 100px;  
+    height: 100px;
+        ">100px</div>  
+    <div style="background-color: skyblue;
+    width: 100px;
+    height: 100px;
+        ">100px</div>
+    <div style="background-color: pink;
+    width: 100px;  
+    height: 100px;
+        ">100px</div> 
+    </div>
+</body>
+</html>

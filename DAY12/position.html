@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="
+height: 3000px;
+">
+    <div style="
+        background-color: black;
+        color: white;
+        position: fixed; /*Note:if there is no position it takes no longer positon.
+         While if we set to position it takes only required space and sort of float*/
+         /*Note position has four special properties to move it position top right bottom left*/
+        /*top: 0px;*/ /*This is going to make the top of our element zero pixels from the top of our browser window here.*/
+        top: 10px;
+        left: 50px;
+        right: 50px; /*If we set left and right same px then it stretches.Means from left and right it leaves 50px*/
+        bottom: 10px; /*Same goes to top and bottom*/
+        /*Note:If you want your fixed element to resize with page then use top left right bottom but if dont want go with height and width*/
+        ">header</div>
+    <div style="
+        background-color: skyblue;
+        height: 200px;
+        width: 200px;
+        position: static; /*position:static is default*/
+        ">div 1</div> 
+    <div style="
+        background-color: lightpink;
+        height: 200px;
+        width: 200px;
+    ">div 2</div>
+</body>
+</html>

@@ -1,0 +1,1634 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.boxupper{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+                          /*==================================Header Starts========================================*/
+.boxmainheader{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    margin-top: 1px;
+    display: flex;
+}
+.upperheader{
+    float: right;
+    margin-top: 7px;
+}
+.upperheader a{
+    margin-right: 40px; 
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.upperheader a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.leftheader img{
+    width: 120px;
+    height: 60px;
+    margin-top: 0.2px;
+    margin-left: 15px;
+}
+.middleheader{
+    width: 60%;
+    justify-content: space-between;
+    display: flex;
+    line-height: 60px;
+    margin-left: 20px;
+}
+.middleheader a{
+    color: white;
+    text-decoration: none;
+}
+.middleheader a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.rightheader{
+    margin-left: 30px;
+    margin-top: 11px;
+    width: 15%;
+    /* outline: none; */
+}
+.rightheader input{
+    outline: none;
+}
+.rightheader input{
+    height: 30px;
+    width: 180px;
+    margin-left: 30px;
+}
+.rightmag img{
+    width: 30px;
+    margin-top: 12px; 
+    height: 34px;
+    margin-right: 12px;
+}
+.rightcart img{ 
+    width: 41px;
+    margin-top: 12px;
+}
+                       /*=================================Header Ends=====================================*/
+                       /*================================Inside Heading Starts===============================*/
+body{
+    margin: 0;
+    padding: 0;
+}
+.insideairforce{
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.insideairforcecontainer{
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+.insidebox5{
+    width: 23%;
+    height: 100%;
+}
+.insidebox5 img{
+    width: 100%;
+    height: 80%;
+}
+.insidename1{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.insdiename1 p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.insidename1anker{
+    background-color: #808080cf; 
+    text-align: center;
+    line-height: 40px;
+}
+.insidename1anker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.insidename1anker a:hover{
+    text-decoration: underline; 
+    color: black;
+}
+.adaimage{
+    height: 400px;
+    margin-top: 60px;
+    background-color: aqua;
+    display: flex;
+    border-radius: 30px;
+}
+.adafirstimage img{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 380px;
+}  
+.aboutairforce{
+    margin-top: 120px;
+    margin-left: 100px;
+}
+.aboutairforce p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+.aboutairforceanker {
+    width: 170px;
+    height: 40px;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 130px;
+    font-size: 25px;
+    text-align: center;
+}
+.aboutairforceanker a{
+    text-decoration: none;
+    line-height: 40px;
+    color: white;
+}
+.aboutairforceanker a:hover{
+    color: red;
+}
+.anothercontainer{
+    margin-top: 100px;
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+.insidebox6{
+    width: 23%;
+    height: 100%;
+}
+.insidebox6 img{
+    width: 100%;
+    height: 80%;
+}
+.insidename2{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.insdiename2 p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.insidename2anker{
+    background-color: #808080cf; 
+    text-align: center;
+    line-height: 40px;
+}
+.insidename2anker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.insidename2anker a:hover{
+    text-decoration: underline; 
+    color: black;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.insidejordan{
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.insidejordancontainer{
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+.insideboxj{
+    width: 23%;
+    height: 100%;
+}
+.insideboxj img{
+    width: 100%;
+    height: 80%;
+}
+.insidenamej{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.insdienamej p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.insidenamejanker{
+    background-color: #808080cf; 
+    text-align: center;
+    line-height: 40px;
+}
+.insidenamejanker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.insidenamejanker a:hover{
+    text-decoration: underline; 
+    color: black;
+}
+.adjimage{
+    height: 400px;
+    margin-top: 60px;
+    background-color: aqua;
+    display: flex;
+    border-radius: 30px;
+}
+.adjfirstimage img{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 380px;
+}  
+.aboutjordan{
+    margin-top: 120px;
+    margin-left: 100px;
+}
+.aboutjordan p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+.aboutjordananker {
+    width: 170px;
+    height: 40px;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 130px;
+    font-size: 25px;
+    text-align: center;
+}
+.aboutjordananker a{
+    text-decoration: none;
+    line-height: 40px;
+    color: white;
+}
+.aboutjordananker a:hover{
+    color: red;
+}
+.anotherjcontainer{
+    margin-top: 100px;
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+.insidebox6j{
+    width: 23%;
+    height: 100%;
+}
+.insidebox6j img{
+    width: 100%;
+    height: 80%;
+}
+.insidename2j{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.insdiename2j p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.insidename2janker{
+    background-color: #808080cf; 
+    text-align: center;
+    line-height: 40px;
+}
+.insidename2janker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.insidename2janker a:hover{
+    text-decoration: underline; 
+    color: black;
+}
+.insideadidas{
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.insideadidascontainer{
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+.insideboxa{
+    width: 23%;
+    height: 100%;
+}
+.insideboxa img{
+    width: 100%;
+    height: 80%;
+}
+.insidenamea{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.insdienamea p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.insidenameaanker{
+    background-color: #808080cf; 
+    text-align: center;
+    line-height: 40px;
+}
+.insidenameaanker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.insidenameaanker a:hover{
+    text-decoration: underline; 
+    color: black;
+}
+.adadimage{
+    height: 400px;
+    margin-top: 60px;
+    background-color: aqua;
+    display: flex;
+    border-radius: 30px;
+}
+.adadfirstimage img{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 380px;
+}  
+.aboutadidas{
+    margin-top: 120px;
+    margin-left: 100px;
+}
+.aboutadidas p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+.aboutadidasanker {
+    width: 170px;
+    height: 40px;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 130px;
+    font-size: 25px;
+    text-align: center;
+}
+.aboutadidasanker a{
+    text-decoration: none;
+    line-height: 40px;
+    color: white;
+}
+.aboutadidasanker a:hover{
+    color: red;
+}
+.anotheracontainer{
+    margin-top: 100px;
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+.insidebox6a{
+    width: 23%;
+    height: 100%;
+}
+.insidebox6a img{
+    width: 100%;
+    height: 80%;
+}
+.insidename2a{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.insdiename2a p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.insidename2aanker{
+    background-color: #808080cf; 
+    text-align: center;
+    line-height: 40px;
+}
+.insidename2aanker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.insidename2aanker a:hover{
+    text-decoration: underline; 
+    color: black;
+}
+.insidelv{
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.insidelvcontainer{
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+.insideboxl{
+    width: 23%;
+    height: 100%;
+}
+.insideboxl img{
+    width: 100%;
+    height: 80%;
+}
+.insidenamel{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.insdienamel p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.insidenamelanker{
+    background-color: #808080cf; 
+    text-align: center;
+    line-height: 40px;
+}
+.insidenamelanker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.insidenamelanker a:hover{
+    text-decoration: underline; 
+    color: black;
+}
+.adlimage{
+    height: 400px;
+    margin-top: 60px;
+    background-color: aqua;
+    display: flex;
+    border-radius: 30px;
+}
+.adlfirstimage img{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 380px;
+}  
+.aboutlv{
+    margin-top: 120px;
+    margin-left: 100px;
+}
+.aboutlv p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+.aboutlvanker {
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 130px;
+    font-size: 25px;
+    text-align: center;
+}
+.aboutlvanker a{
+    text-decoration: none;
+    line-height: 40px;
+    color: white;
+}
+.aboutlvanker a:hover{
+    color: red;
+}
+.anotherlcontainer{
+    margin-top: 100px;
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+.insidebox6l{
+    width: 23%;
+    height: 100%;
+}
+.insidebox6l img{
+    width: 100%;
+    height: 80%;
+}
+.insidename2l{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.insdiename2l p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.insidename2lanker{
+    background-color: #808080cf; 
+    text-align: center;
+    line-height: 40px;
+}
+.insidename2lanker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.insidename2lanker a:hover{
+    text-decoration: underline; 
+    color: black;
+}
+.insidenike{
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.insidenikecontainer{
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+.insideboxn{
+    width: 23%;
+    height: 100%;
+}
+.insideboxn img{
+    width: 100%;
+    height: 80%;
+}
+.insidenamen{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.insdienamen p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.insidenamenanker{
+    background-color: #808080cf; 
+    text-align: center;
+    line-height: 40px;
+}
+.insidenamenanker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.insidenamenanker a:hover{
+    text-decoration: underline; 
+    color: black;
+}
+.adnimage{
+    height: 400px;
+    margin-top: 60px;
+    background-color: aqua;
+    display: flex;
+    border-radius: 30px;
+}
+.adnfirstimage img{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 380px;
+}  
+.aboutnike{
+    margin-top: 120px;
+    margin-left: 100px;
+}
+.aboutnike p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+.aboutnikeanker {
+    width: 170px;
+    height: 40px;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 80px;
+    font-size: 25px;
+    text-align: center;
+}
+.aboutnikeanker a{
+    text-decoration: none;
+    line-height: 40px;
+    color: white;
+}
+.aboutnikeanker a:hover{
+    color: red;
+}
+.anotherncontainer{
+    margin-top: 100px;
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+.insidebox6n{
+    width: 23%;
+    height: 100%;
+}
+.insidebox6n img{
+    width: 100%;
+    height: 80%;
+}
+.insidename2n{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.insdiename2n p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.insidename2nanker{
+    background-color: #808080cf; 
+    text-align: center;
+    line-height: 40px;
+}
+.insidename2nanker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.insidename2nanker a:hover{
+    text-decoration: underline; 
+    color: black;
+}
+.insideyeezy{
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.insideyeezycontainer{
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+.insideboxy{
+    width: 23%;
+    height: 100%;
+}
+.insideboxy img{
+    width: 100%;
+    height: 80%;
+}
+.insidenamey{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.insdienamey p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.insidenameyanker{
+    background-color: #808080cf; 
+    text-align: center;
+    line-height: 40px;
+}
+.insidenameyanker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.insidenameyanker a:hover{
+    text-decoration: underline; 
+    color: black;
+}
+.adyimage{
+    height: 400px;
+    margin-top: 60px;
+    background-color: aqua;
+    display: flex;
+    border-radius: 30px;
+}
+.adyfirstimage img{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 380px;
+}  
+.aboutyeezy{
+    margin-top: 120px;
+    margin-left: 100px;
+}
+.aboutyeezy p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+.aboutyeezyanker {
+    width: 170px;
+    height: 40px;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 130px;
+    font-size: 25px;
+    text-align: center;
+}
+.aboutyeezyanker a{
+    text-decoration: none;
+    line-height: 40px;
+    color: white;
+}
+.aboutyeezyanker a:hover{
+    color: red;
+}
+.anotherycontainer{
+    margin-top: 100px;
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+.insidebox6y{
+    width: 23%;
+    height: 100%;
+}
+.insidebox6y img{
+    width: 100%;
+    height: 80%;
+}
+.insidename2y{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.insdiename2y p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.insidename2yanker{
+    background-color: #808080cf; 
+    text-align: center;
+    line-height: 40px;
+}
+.insidename2yanker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.insidename2yanker a:hover{
+    text-decoration: underline; 
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+                       /*================================Outside Heading Starts================================*/
+
+                       /*==================================Body Starts=================================*/
+.box{
+    display: flex;
+}
+.box1{
+    width: 48%;
+    height: 60px;
+    background-color: rgb(217, 217, 217);
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-right: 12px;
+}
+.box1 p{
+    margin-top: 3px;
+    font-size: 25px;
+    margin-left: 190px;
+    line-height: 60px;
+}
+.box1 p a{
+    font-size: 15px;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.box2{
+    width: 48%;
+    height: 60px;
+    background-color: rgb(217, 217, 217);
+    margin-right: 30px;
+    margin-top: 40px;
+    margin-left: 12px;
+}
+.box2 p{
+    margin-top:2px;
+    margin-left: 145px;
+    font-size: 20px;
+    line-height: 60px;
+}
+.box2 p a{
+    font-size: 15px;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.mainbox{
+    display: flex;
+}
+.box3{
+    width: 50%;
+    height: 350px;
+    background-color:rgb(217, 217, 217);
+    margin-top: 40px;
+    text-align: center;
+}
+.box3 h1{
+    font-size: 50px;
+    margin-top: 40px;
+}
+.box3 p{
+    font-size: 40px;
+}
+.tag{
+    margin: auto;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+}
+.tag a{
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+}
+.tag a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.box4{
+    width: 50%;
+    height: 350px;
+    margin-top: 40px;
+}
+.box4 img{
+    height: 350px;
+    width:100%;
+}
+.arrivals{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.newarrivalscontainer{
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    margin: auto;
+}
+.boxa{
+    width: 23%;
+    height: 100%;
+}
+.boxa img{
+    width: 100%;
+    height: 80%;
+}
+.namea{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.namea p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.nameaanker{
+    background-color:#808080cf;
+    text-align: center;
+    line-height: 40px;
+}
+.nameaanker a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+.nameaanker a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.airforce h1{
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.airforcecontainer{
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+.box5{
+    width: 23%;
+    height: 100%;
+}
+.box5 img{
+    width: 100%;
+    height: 80%;
+}
+.box5 .name1{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.box5 .name1 p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.name1anker{
+    background-color: #808080cf; 
+    text-align: center;
+    line-height: 40px;
+}
+.name1anker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.name1anker a:hover{
+    text-decoration: underline; 
+    color: black;
+}
+.box6{
+    width: 23%;
+    height: 100%;
+}
+.box6 .name2{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.box6 img{
+    width: 100%;
+    height: 80%;
+}
+.box6 .name2 p{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.name2anker{
+    background-color: #808080cf;
+    text-align: center;
+    line-height: 40px;
+}
+.name2anker a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.name2anker a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.box7{
+    width: 23%;
+    height: 100%;
+}
+.box7 img{
+    width: 100%;
+    height: 80%;
+}
+.box7 .name3{
+    display: flex;
+    height: 50px;
+    justify-content: space-between; 
+}
+.box7 .name3 p{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.name3anker{
+    text-align: center;
+    background-color: #808080cf;
+    line-height: 40px;
+}
+.name3anker a{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+.name3anker a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.box8{
+    width: 23%;
+    height: 100%;
+}
+.box8 img{
+    width: 100%;
+    height: 80%;
+}
+.box8 .name4{
+    display: flex;
+    justify-content: space-between;
+    height: 50px; 
+}
+.box8 .name4 p{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.name4anker{
+    text-align: center;
+    background-color: #808080cf;
+    line-height: 40px; 
+}
+.name4anker a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.name4anker a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.yeezy h1{
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.yeezycontainer {
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between;
+    margin: auto;
+}
+.box9{
+    width: 23%;
+    height: 100%;
+}
+.box9 img{
+    width: 100%;
+    height: 80%;
+}
+.box9 .name5{
+    display: flex;
+    justify-content: space-between; 
+    height: 50px;  
+}
+.box9 .name5 p{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.nameanker5{
+    text-align: center;
+    background-color: #808080cf;
+    line-height: 40px;
+}
+.nameanker5 a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+.nameanker5 a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.box10{
+    width: 23%;
+    height: 100%;
+}
+.box10 img{
+    width: 100%;
+    height: 80%;
+}
+.name6{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.box10 .name6 p{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.nameanker6{
+    text-align: center;
+    background-color: #808080cf;
+    line-height: 40px;
+}
+.nameanker6 a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.nameanker6 a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.box11{
+    width: 23%;
+    height: 100%;
+}
+.box11 img{
+    width: 100%;
+    height: 80%;
+}
+.name7{
+    display: flex;
+    height: 50px; 
+    justify-content: space-between;
+}
+.name7 p{
+    margin-top: 10px;   
+    font-size: 25px;
+}
+.nameanker7{
+    text-align: center;
+    line-height: 40px;
+    background-color: #808080cf;
+}
+.nameanker7 a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.nameanker7 a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.box12{
+    width: 23%;
+    height: 100%;
+}
+.box12 img{
+    width: 100%;
+    height: 80%;
+}
+.name8{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+}
+.name8 p{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.nameanker8{
+    text-align: center;
+    background-color: #808080cf;
+    line-height: 40px;
+}
+.nameanker8 a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.nameanker8 a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.jordan{
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.jordancontainer{
+    display: flex;
+    width: 97%;
+    height: 350px;
+    justify-content: space-between; 
+    margin: auto;
+}
+.box13{
+    width: 23%;
+    height: 100%;
+}
+.box13 img{
+    width: 100%;
+    height: 80%;
+}
+.name9{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.name9 p{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.nameanker9{
+    text-align: center;
+    background-color: #808080cf;
+    line-height: 40px;
+}
+.nameanker9 a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.nameanker9 a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.box14{
+    width: 23%;
+    height: 100%;
+}
+.box14 img{
+    width: 100%;
+    height: 80%;
+}
+.name10{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.name10 p{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.nameanker10{
+    text-align: center;
+    background-color: #808080cf;
+    line-height: 40px;
+}
+.nameanker10 a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.nameanker10 a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.box15{
+    width: 23%;
+    height: 350px;
+}
+.box15 img{
+    width: 100%;
+    height: 80%;
+}
+.name11{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.name11 p{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.nameanker11{
+    text-align: center;
+    background-color: #808080cf;
+    line-height: 40px;
+}
+.nameanker11 a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.nameanker11 a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.box16{
+    width: 23%;
+    height: 100%;
+}
+.box16 img{
+    width: 100%;
+    height: 80%;
+}
+.name12{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.name12 p{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.nameanker12{
+    text-align: center;
+    background-color: #808080cf;
+    line-height: 40px;
+}
+.nameanker12 a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.nameanker12 a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.lv{
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.lvcontainer{
+    margin: auto;
+    display: flex;
+    height: 350px;
+    width: 97%;
+    justify-content: space-between;
+}
+.box17{
+    width: 23%;
+    height: 100%;
+}
+.box17 img{
+    width: 100%;
+    height: 80%;
+}
+.name13{
+    display: flex;
+    justify-content: space-between;
+    height: 50px; 
+}
+.name13 p{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.nameanker13{
+    text-align: center;
+    background-color: #808080cf;
+    line-height: 40px;
+}
+.nameanker13 a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.nameanker13 a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.nike{
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.nikecontainer{
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+    height: 350px;
+    margin: auto;
+}
+.box18{
+    width: 23%;
+    height: 100%;
+}
+.box18 img{
+    width: 100%;
+    height: 80%;
+}
+.name14{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.name14 p{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.nameanker14{
+    text-align: center;
+    background-color: #808080cf;
+    line-height: 40px;
+}
+.nameanker14 a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+.nameanker14 a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.adidas{
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.adidascontainer{
+    width: 97%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.box19{
+    width: 23%;
+    height: 100%;
+}
+.box19 img{
+    width: 100%;
+    height: 80%;
+}
+.name15{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.name15 p{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.nameanker15{
+    text-align: center;
+    background-color: #808080cf;
+    line-height: 40px;
+}
+.nameanker15 a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+.nameanker15 a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.lastimages{
+    width: 97%;
+    margin-top: 150px;
+    margin-left: 20px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+}
+.lastfirstimage img{
+    width: 97%;
+    height: 45%;
+    text-align: center;
+}
+.lastfirstimage h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+.lastfirstimage p{
+    font-size: 20px;
+    text-align: center;
+}
+.lastfirstimageanker{
+    text-align: center;
+    font-size: 20px;
+}
+.lastfirstimageanker a{
+    color: black;
+}
+.lastsecondimage img{
+    width: 97%;
+    height: 45%;
+}
+.lastsecondimage h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+.lastsecondimage p{
+    font-size: 20px;
+    text-align: center;
+}
+.lastsecondimageanker{
+    text-align: center;
+    font-size: 20px;
+}
+.lastsecondimageanker a{
+    color: black;
+}
+.lastimage img{
+    width: 97%;
+    height: 45%;
+}
+.lastimage h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+.lastimage p{
+    font-size: 20px;
+    text-align: center;
+}
+.lastimageanker{
+    text-align: center;
+    font-size: 20px;
+}
+.lastimageanker a{
+    color: black;
+}
+  /*==================================Body Ends===================================*/
+  /*==================================Footer Starts==================================*/
+.footercontainer{
+    width: 100%;
+    height: 595px;
+    background-color: black;
+    display: flex;
+}
+.aboutusfoot{
+    /* width: 200px; */
+    height: 100px;
+    /* background-color: blue; */
+    margin-left: 40px;
+}
+.aboutusfoot h3{
+    font-size: 20px;
+    color: white;
+    line-height: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.aboutusfoot p{
+    font-size: 25px;
+    color: white;
+}
+.aboutusfoot p:hover{
+    text-decoration: underline;
+}
+.servicefoot{
+    margin-left: 100px;
+    height: 100px;
+}
+.servicefoot h3{
+    color: white;
+    font-size: 20px;
+    line-height: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.servicefoot p{
+    font-size: 25px;
+    color: white;
+}
+.servicefoot p:hover{
+    text-decoration: underline;
+}
+.quickfoot{
+    margin-left: 100px;
+    height: 100px;
+}
+.quickfoot h3{
+    color: white;
+    font-size: 25px;
+    line-height: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.quickfoot p{
+    font-size: 25px;
+    color: white;
+}
+.quickfoot p:hover{
+    text-decoration: underline;
+}
+.socialfoot{
+    margin-left: 100px;
+    height: 100px;
+}
+.socialfoot h3{
+    font-size: 25px;
+    color: white;
+    line-height: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.socialfoot a{
+    font-size: 40px;
+    text-decoration: none;
+    color: gray;
+    padding-left: 15px;
+}
+.socialfoot a:hover{
+    color: white;
+}
+.payment img{
+    width: 40px;
+    padding-left:15px ;
+}
+.lastfooter{
+    margin-left: 50px;
+    margin-top: 170px;
+}
+.lastfooter p{
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  /*==================================Footer Ends=====================================*/

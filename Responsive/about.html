@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESPONSIVE</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="IMAGES/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+
+    <!---------------about us content------------------------->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-column">
+                <h1>We are the worlds Best University</h1>
+                <p>Indescribable oppression, which seemed to generate in some unfamiliar 
+                    part of her consciousness, filled her whole being with a vague anguish. 
+                    It was like a shadow, like a mist passing across her soul's summer day. 
+                    It was strange and unfamiliar; it was a mood. She did not sit there inwardly
+                     upbraiding her husband, lamenting at Fate, which had directed her footsteps
+                      to the path which they had taken. She was just having a good cry all to herself.
+                       The mosquitoes made merry over her, biting her firm, round arms and nipping at her bare insteps.</p>
+                <a href="" class="hero-button red-button">EXPLORE NOW</a>       
+            </div>
+            <div class="about-column">
+                <img src="./IMAGES/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    
+
+    <!------------------Footer------------------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+             Aut molestiae expedita debitis officia, deserunt <br>
+             repellendus, nemo fuga dolore magnam dolores quo,
+              id voluptatem magni error.</p>
+              <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+        <p></p>
+    </section>
+<!-----------------js----------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="
+height: 3000px;
+padding-top: 60px;
+padding-left: 80px;
+">
+    <div style="
+        background-color: black;
+        color: white;
+        position: fixed; 
+        top: 0px;
+        left: 0px;
+        right: 0px; 
+        height: 50px;
+        ">header
+    </div>
+
+    <div style="
+        background-color: green;
+        color: white;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 50px;
+        width: 72px;
+        z-index:1 ; /*z-index determines which element appears front and which behind.Default z-index is zero.Higher z-index will appear front while lower behind*/
+    ">sidebar
+     <div style="
+     position: absolute;
+     background-color: red;
+     color: white;
+     right: 0;
+     top: 0;
+ ">X
+ <!--Note:When position absolute is inside position fixed then its gonna act according to fixed.
+    Here the position of absolute is right:10px and top:60px from sidebar. -->
+ </div>
+    </div>
+
+    <div style="
+        position: absolute;
+        background-color: red;
+        color: white;
+        right: 10px;
+        top: 60px;
+    ">absoulte
+    <!-- Key difference between absolute and fixed is fixed:placed on the browser window and absolute:on the page.Means on scrolling fixed position does not move while absolute does. -->
+    </div>
+
+    <div style="
+        background-color: skyblue;
+        height: 200px;
+        width: 200px;
+        position: static; 
+        /*margin-top: 60px;*/ /*If you want space below heading or space from the sidebar then it always better practice to give space at body element*/
+        ">div 1</div> 
+
+
+    <div style="
+        background-color: lightpink;
+        height: 200px;
+        width: 200px;
+        position: relative;
+    ">div 2
+     <div style="
+     position: absolute;
+     background-color: black;
+     color: white;
+     right: 10px;
+     bottom: 10px;
+ ">5:00
+ <!--When position absolute is inside position relative, this will be positioned on the element not on the page.
+    Second thing is,position relative causes position absolute to act normally.-->
+ </div>
+    </div>
+</body>
+</html>

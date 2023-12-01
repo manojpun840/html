@@ -1,0 +1,9 @@
+.thumbnail{
+    width: 350px;
+    display: block; /*Conversion of inline block into block element.*/
+}
+
+.video-author,
+.video-stats{
+    display: inline-block; /* Conversion of block element into inline block element.*/
+}
